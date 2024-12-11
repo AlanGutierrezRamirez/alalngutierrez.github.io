@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alan Gutierrez Ramirez - Video Game Developer Portfolio">
+    <title>Alan Gutierrez Ramirez - MyPortfolio_</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <span>MyPortfolio_</span>
+        </div>
+        <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
+
+        <!-- Menú desplegable -->
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="about_me.html">About Me</a></li>
+                <li class="has-submenu">
+                    <a href="">Works</a>
+                    <!-- Opción Works con sublista -->
+                    <ul class="submenu">
+                        <li><a href="#">Work 1</a></li>
+                        <li><a href="#">Work 2</a></li>
+                        <li><a href="#">Work 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact_me.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introduction">
+            <div class="intro-text">
+                <h1>Hey, I'm Alan Gutierrez Ramirez</h1>
+                <h2>Game Developer</h2>
+            </div>
+            <div class="filter-menu">
+                <a class="menu-link" data-filter="All">All</a>
+                <a class="menu-link" data-filter="Unity">Unity</a>
+                <a class="menu-link" data-filter="Unreal">Unreal</a>
+                <a class="menu-link" data-filter="OpenGL">OpenGL</a>
+                <a class="menu-link" data-filter="SDL">SDL</a>
+                <a class="menu-link" data-filter="Other">Other</a>
+            </div>
+        </section>
+        <section class="project-previews" id="project-previews">
+            <div class="project" data-filter="Other">
+                <video autoplay loop muted>
+          <source src="assets/videos/ThisVideoTookMe3YearsToMake.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>E.S.A.T. Progression</h3>
+                    <p>Through the years</p>
+                </div>
+            </div>
+
+            <div class="project" data-filter="Unity">
+                <video autoplay loop muted>
+          <source src="assets/videos/unity_chat.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Conversation</h3>
+                    <p>Unity</p>
+                </div>
+            </div>
+
+            <div class="project" data-filter="Unreal">
+                <video autoplay loop muted>
+          <source src="assets/videos/shelley_manor.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Shelley Manor</h3>
+                    <p>Unreal Engine 5</p>
+                </div>
+            </div>
+
+            <div class="project" data-filter="SDL">
+                <video autoplay loop muted>
+          <source src="assets/videos/automata.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Automata</h3>
+                    <p>C/C++ | SDL2</p>
+                </div>
+            </div>
+            <div class="project" data-filter="SDL">
+                <video autoplay loop muted>
+          <source src="assets/videos/snake.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Snake</h3>
+                    <p>C/C++ | SDL2</p>
+                </div>
+            </div>
+            <div class="project" data-filter="Unity">
+                <video autoplay loop muted>
+          <source src="assets/videos/banana_man.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Banana Man</h3>
+                    <p>Unity</p>
+                </div>
+            </div>
+            <div class="project" data-filter="SDL">
+                <video autoplay loop muted>
+          <source src="assets/videos/starcastle.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Starcastle</h3>
+                    <p>C/C++ | SDL</p>
+                </div>
+            </div>
+            <div class="project" data-filter="OpenGL">
+                <video autoplay loop muted>
+          <source src="assets/videos/engine.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+                <div class="overlay">
+                    <h3>Graphic Engine</h3>
+                    <p>C/C++ | OpenGL</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <a href="tel:+34603586727">
+        <i class="fas fa-phone"></i> +34 603 586 727
+      </a>
+            <a href="mailto:linceasiatico@gmail.com" target="_blank">
+        <i class="fas fa-envelope"></i> alangutier24@gmail.com
+      </a>
+        </div>
+        <div class="contact-info">
+            <a href="https://github.com/AlanGutierrezRamirez" target="_blank">
+        <i class="fab fa-github"></i> AlanGutierrezRamirez
+      </a>
+            <a href="www.linkedin.com/in/alan-gutierrez-ramirez-81379921b" target="_blank">
+        <i class="fab fa-linkedin"></i> Alan Gutierrez Ramirez
+      </a>
+        </div>
+        <div class="contact-info">
+            <a href="https://www.google.com/maps/search/?api=1&query=Valencia" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> Valencia, Comunidad Valenciana
+      </a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
